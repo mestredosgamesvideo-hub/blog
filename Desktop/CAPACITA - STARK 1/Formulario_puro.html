@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario Puro em HTML</title>
+        <body>
+            <h1>FORMULARIO</h1>
+            <form action="Formulario.html" method="GET">
+                <label for="Nome completo">Nome completo:</label>
+                <input id="Nome" type="text"> <br/> </br/>
+            
+                <label for="E-mail_id">E-mail:</label>
+                <input id="E-mail" type="E-mail"> <br/> </br/>
+
+                <label for="dt_nascimento">Data de Nascimento:</label>
+                <input id="dt_nascimento" name="dt_nascimento" type="date"> <br/> <br/>
+
+                <input id="cor" type="color" name="cor"> <br/> <br/>
+                
+                <label>Nivel de experiecia musical</label>
+                <input id="experiecia musical" type="range" name="experiecia musical" min="1" max="10" value="100"> <br/><br/>
+
+                <label>Telefone para contato</label>
+                <input id="Telefone" type="Tel" name="Telefone" pattern="\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}" > <br/><br/>
+                <!--FORMATO CORRETO: (85) 9 8527-0687
+                ([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}
+                9-3327-0687
+                
+                
+                -->
+
+
+                <label>Link para portifólio musical</label>
+                <input id="portifólio musical" type="url" name="portifólio musical" pattern="www.portifoliomusical.com.br" size="70" > <br/><br/>
+
+                <label>Data e hora preferidas para o workshop</label>
+                <input type="datetime-local"> <br/><br/>
+
+                <label>Mês de diponibilidade para apresentações</label>
+                <input type="month"> <br/><br/>
+
+                <label>Horário disponivel para ensaios</label>
+                <input  type="time"> <br/><br/>
+                
+                <label>Semana do festival em que deseja partipar</label>
+                <input type="week"> <br/><br/>
+
+                <label>Número de ingresso desejados</label>
+                <input type="number"> <br/><br/>
+
+                <label>Campo de busca para gêneros musicais de interesse</label>
+                <input type="search"> <br/><br/>
+
+                <input type="submit" value="Inscrever-se no festival">
+        </body>
+    </head>
+</html>

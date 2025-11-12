@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Login do usuário</h2>
+    <form action="/acaoqualquer.html" method="GET">
+        <label for="email_id">Email: </label>
+        <input id="email_id" type="email"> <br/><br/>
+
+        <label for="senha_id">Senha: </label>
+        <input id="senha_id" type="password"> <br/><br/>
+
+        <label>Você aceita a politica do sistema?</label> <br /><br />
+        <input type="radio" id="politica_nao" name="politica"  value="nao"> <label for="politica_nao">Não</label> 
+        <input type="radio" id="politica_sim" name="politica" value="sim"> <label for="politica_sim">Sim</label> 
+        <input type="radio" id="politica_nao_li" name="policita" value="naoli"> <label for="politica_nao_li">Não li</label>
+
+        <br /><br />
+
+        <input type="checkbox" id="checkbox_html" name="checkbox_html" value="HTML" > <label for="checkbox_html">HTML</label>  <br />
+        <input type="checkbox" id="checkbox_css" name="checkbox_css" value="CSS" > <label for="checkbox_css">CSS</label>  <br />
+        <input type="checkbox" id="checkbox_js" name="checkbox_js" value="JavaScript" > <label for="checkbox_js">JavaScript</label>  <br />
+        <input type="checkbox" id="checkbox_nodejs" name="checkbox_nodejs" value="NodeJS" > <label for="checkbox_nodejs">NodeJS</label>  <br />
+        <input type="checkbox" id="checkbox_android" name="checkbox_android" value="Android" > <label for="checkbox_android">Android</label>  <br /><br />
+
+        <label for="dt_nascimento">Data de Nascimento:</label> <br />
+        <input id="dt_nascimento" name="dt_nascimento" type="date"> <br/> <br/>
+        <input id="dt_nascimento_local" name="dt_nascimento_local" type="datetime-local"> <br/> <br/>
+
+        <input id="cor" type="color" name="cor"> <br/> <br/>
+
+        <input id="mes" type="month" name="mes"> <br/> <br/>
+
+        <input id="idade" type="number" name="idade"> <br/> <br/>
+
+        <input id="salario" type="range" name="salario" min="1650" max="25000" value="5000"> <br/> <br/>
+
+        <input id="telefone" type="tel" name="telefone"> <br/> <br/>
+
+        DataList: <br />
+        <input list="navegadores" name="navegadores">
+        <datalist id="navegadores">
+            <option value="Chro" />
+            <option value="ChromeOS" />
+            <option value="Edge" />
+            <option value="Opera" />
+            <option value="Safari"/ >
+        </datalist> <br/> <br/>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
