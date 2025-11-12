@@ -1,0 +1,33 @@
+/* frontend/styles.css */
+
+/* (Mantenha o código CSS anterior para body, container, h2, form, input, button...) */
+
+/* --- Estilos para as Mensagens (Foco no Visual das Imagens) --- */
+
+.msg {
+  padding: 12px; /* Aumenta o padding para ser mais notável */
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold; /* Deixa o texto mais forte como nas imagens */
+  border: 1px solid transparent; /* Adiciona uma borda transparente inicial */
+}
+
+/* Estilo para Mensagem de ERRO (Vermelho Claro / Credenciais Inválidas) */
+.msg.error {
+  /* Cores baseadas na imagem de erro (image_150b86.png) */
+  background-color: #f8d7da; /* Fundo vermelho bem claro */
+  color: #721c24; /* Texto vermelho escuro */
+  border-color: #f5c6cb; /* Borda vermelha clara */
+}
+
+/* Estilo para Mensagem de SUCESSO (Verde Claro / Login Realizado) */
+.msg.success {
+  /* Cores baseadas na imagem de sucesso (image_150be8.png) */
+  background-color: #d4edda; /* Fundo verde bem claro */
+  color: #155724; /* Texto verde escuro */
+  border-color: #c3e6cb; /* Borda verde clara */
+}
+
+/* (Mantenha o restante do CSS para toolbar, comments, etc...) */
